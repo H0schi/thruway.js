@@ -5,9 +5,10 @@ npm-debug.log
 Thumbs.db
 .DS_Store
 # Ignored files
-!*.d.ts
+#*.ts
+#!*.d.ts
 .idea/
-.dist/
+#.dist/
 spec
 .git
 spec-js

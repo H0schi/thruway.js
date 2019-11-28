@@ -1,12 +1,12 @@
-dist/
+#dist/
 node_modules/
 typings/
 npm-debug.log
 .idea/
 
 # Ignored files
-*.js
+#*.js
 *.map
-*.d.ts
+#*.d.ts
 spec-js
 !webpack.config.js
