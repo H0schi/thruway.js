@@ -373,3 +373,5 @@ export interface TransportData {
     realm: string,
     options: WampOptions
 }
+
+export { IMessage }
