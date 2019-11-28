@@ -29,7 +29,7 @@
   "browser": {
     "ws": false
   },
-  "typings": "./dist/Client.d.ts",
+  "typings": "./dist/index.d.ts",
   "scripts": {
     "compile": "tsc",
     "watch": "tsc --watch",
