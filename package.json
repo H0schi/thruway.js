@@ -37,7 +37,8 @@
     "clean_spec": "shx rm -rf spec-js",
     "build_spec": "tsc --project ./spec --pretty",
     "test_mocha": "mocha spec-js/spec/*",
-    "test": "npm-run-all clean_spec build_spec test_mocha clean_spec"
+    "test": "npm-run-all clean_spec build_spec test_mocha clean_spec",
+    "prepare": "npm run compile"
   },
   "devDependencies": {
     "@types/es6-shim": "^0.31.32",
