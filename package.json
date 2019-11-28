@@ -30,6 +30,10 @@
     "ws": false
   },
   "typings": "./src/Client.ts",
+  "files": [
+    "*.d.ts",
+    "*.js*"
+  ],
   "scripts": {
     "compile": "tsc",
     "watch": "tsc --watch",
@@ -37,7 +41,8 @@
     "clean_spec": "shx rm -rf spec-js",
     "build_spec": "tsc --project ./spec --pretty",
     "test_mocha": "mocha spec-js/spec/*",
-    "test": "npm-run-all clean_spec build_spec test_mocha clean_spec"
+    "test": "npm-run-all clean_spec build_spec test_mocha clean_spec",
+    "prepare": "npm install && npm run compile && npm run build_spec"
   },
   "devDependencies": {
     "@types/es6-shim": "^0.31.32",
