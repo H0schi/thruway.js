@@ -38,7 +38,7 @@
     "build_spec": "tsc --project ./spec --pretty",
     "test_mocha": "mocha spec-js/spec/*",
     "test": "npm-run-all clean_spec build_spec test_mocha clean_spec",
-    "preinstall": "npm install && npm run compile && npm run build_spec"
+    "postinstall": "npm install && npm run compile && npm run build_spec"
   },
   "devDependencies": {
     "@types/es6-shim": "^0.31.32",
