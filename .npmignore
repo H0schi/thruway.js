@@ -8,7 +8,7 @@ Thumbs.db
 *.ts
 !*.d.ts
 .idea/
-.dist/
+.src/
 spec
 .git
 spec-js
