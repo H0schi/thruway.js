@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/voryx/Thruway.js.git"
+    "url": "git+https://github.com/H0schi/Thruway.js.git"
   },
   "keywords": [
     "wamp",
@@ -19,9 +19,9 @@
   "author": "David Dan <davidwdan@gmail.com> (http://voryx.net)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/voryx/Thruway.js/issues"
+    "url": "https://github.com/H0schi/Thruway.js/issues"
   },
-  "homepage": "https://github.com/voryx/Thruway.js#readme",
+  "homepage": "https://github.com/H0schi/Thruway.js#readme",
   "peerDependencies": {
     "rxjs": "^5.5.12",
     "ws": "^6.0.0"
