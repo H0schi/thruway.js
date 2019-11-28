@@ -8,8 +8,7 @@
     "sourceMap": true,
     "declaration": true,
     "removeComments": true,
-    "skipLibCheck": true,
-    "outDir": "dist/"
+    "skipLibCheck": true
   },
   "typeRoots": [
     "node_modules/@types"

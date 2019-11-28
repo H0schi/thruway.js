@@ -6,9 +6,9 @@ Thumbs.db
 .DS_Store
 # Ignored files
 *.ts
-!*.d.ts
+!*.d.ts 
 .idea/
-.src/
+dist/
 spec
 .git
 spec-js
